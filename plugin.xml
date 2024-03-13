@@ -1,7 +1,7 @@
 <plugin name="Fractal Carriers">
  <author>Zoura3025</author>
  <version>0.1</version>
- <compatibility>^0\.11\..*</compatibility>
+ <compatibility>^0\.12\..*</compatibility>
  <description>Adds a couple Za'lek outfits that spawn carrier drones.</description>
  <source>https://naev.org</source>
 </plugin>
