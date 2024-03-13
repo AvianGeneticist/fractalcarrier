@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Za'lek Subcarrier Drone Bay">
+ <general>
+  <shortname>Z. Sc. Drone B.</shortname>
+  <slot prop="fighter_bay">weapon</slot>
+  <size>large</size>
+  <license>Medium Combat Vessel</license>
+  <cond>faction.playerStanding("Za'lek") &gt;= 60</cond>
+  <condstr>You need at least 60 reputation with House Za'lek.</condstr>
+  <rarity>2</rarity>
+  <mass>205</mass>
+  <price>2800000</price>
+  <gfx_store>placeholder.webp</gfx_store>
+  <description>This bay operates a quartet of subcarrier drones, which can each manage a pair of Za'lek light drones, contributing significant swarming potential to the fleet. However, the drones take a substantial amount of time to fabricate, and they're quite heavy. The entire system also takes a considerable amount of computational power, and the drones require a substantial amount of fabrication time. It comes with all the devices required for the maintenance and flight of the drones.</description>
+  <cpu>-740</cpu>
+ </general>
+ <specific type="fighter bay" secondary="1">
+  <delay>8</delay>
+  <reload_time>130</reload_time>
+  <amount>4</amount>
+  <ship>Za'lek Subcarrier Drone</ship>
+  <ship_mass>40</ship_mass>
+ </specific>
+</outfit>
