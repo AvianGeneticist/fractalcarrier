@@ -31,10 +31,11 @@
   <fuel>100</fuel>
   <cargo>0</cargo>
   <fuel_consumption>1</fuel_consumption>
-  <cpu>95</cpu>
+  <cpu>100</cpu>
  </characteristics>
  <slots>
-  <weapon size="small" x="15" y="-5" h="2">Razor Artillery S2</weapon>
+  <weapon size="small" x="15" y="-5" h="2">Electron Burst Howitzer</weapon>
+  <weapon size="small" x="0" y="2" h="2">Automated Defense Node</weapon>
   <weapon size="small" prop="fighter_bay" x="0" y="10" h="0">Za'lek Light Drone Micro Bay</weapon>
   <utility size="small" />
   <utility size="small" />

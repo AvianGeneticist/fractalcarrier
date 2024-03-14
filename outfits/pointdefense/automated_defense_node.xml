@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<outfit name="Automated Defense Node">
+ <general>
+  <slot>weapon</slot>
+  <size>medium</size>
+  <typename>Point Defense</typename>
+  <mass>14</mass>
+  <price>120000</price>
+  <description>While all point defense systems are automated, this lightweight, laser-based alternative is extra compact and well-optimized, designed to run as a support weapon on drones.</description>
+  <gfx_store>placeholder.webp</gfx_store>
+  <cpu>-18</cpu>
+ </general>
+ <specific type="turret bolt">
+  <lua>outfits/pointdefense/automated_defense_node.lua</lua>
+  <gfx>laser2M.png</gfx>
+  <sound>laser</sound>
+  <spfx_shield>ShiS</spfx_shield>
+  <spfx_armour>ExpS</spfx_armour>
+  <delay>0.4</delay>
+  <speed>900</speed>
+  <range>800</range>
+  <falloff>650</falloff>
+  <energy>6</energy>
+  <heatup>20</heatup>
+  <trackmin>0</trackmin>
+  <trackmax>1200</trackmax>
+  <damage>
+   <type>energy</type>
+   <penetrate>7</penetrate>
+   <physical>5</physical>
+  </damage>
+  <pointdefense />
+ </specific>
+</outfit>
