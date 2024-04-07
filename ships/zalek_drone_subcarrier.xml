@@ -5,7 +5,7 @@
  <base_type path="zalek_drone_subcarrier">Za'lek Subcarrier Drone</base_type>
  <gfx size="44">zalek_drone_subcarrier</gfx>
  <sound>engine_zalek</sound>
- <class display="Robotic Subcarrier">Carrier</class>
+ <class display="Robotic Subcarrier">Drone</class>
  <price>350000</price>
  <time_mod>0.75</time_mod>
  <trail_generator x="-11" y="0" h="0">nebula</trail_generator>
